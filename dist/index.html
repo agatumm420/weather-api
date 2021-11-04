@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script defer src="main.js" ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="big-box">  
+        <div class="form">  
+            <input type="search" id="search-bar" placeholder="search location...">
+             <img id="search-icon" src="https://cdn-icons-png.flaticon.com/512/107/107122.png">
+        
+        </div>
+        <div class="heading">
+           <h1>Today</h1>
+        </div>
+        <div class="swicharoo">
+            <input type="radio" id="celsius" name="temperature" value="metric" />
+                <label for="celsius">C</label>
+
+                <input
+                    type="radio"
+                    id="fahrenheit"
+                    name="temperature"
+                    value="imperial"
+                />
+            <label for="fahrenheit">F</label>
+        </div>
+        <div class="container" id="today">
+            
+            <div class="box" id="city">
+                <p id="city-tag"></p>
+            </div>
+            <div class="box" >
+                <img id="icon"src="" >
+                <p id="description"></p>
+            </div>
+            <div class="box" id="temp">
+                <p id="temp-tag"></p>
+            </div>
+            <div class="box" id="feel">
+                <p id="feel-tag"></p>
+            </div>
+        </div>
+        <div class="heading">
+            <h1>This week</h1>
+         </div>
+        <div class="week">
+             <div class="spot">
+                <p class="day"></p>
+                <p class="temp"></p>
+                <img  class="icon" src="">
+                <p class="rain"id="rain1"></p>
+                
+             </div>
+             <div class="spot">
+                <p class="day"></p>
+                <p class="temp"></p>
+                <img class="icon" src="">
+                <p class="rain"id="rain2"></p>
+             </div>
+             <div class="spot">
+                <p class="day"></p>
+                <p class="temp"></p>
+                <img class="icon" src="">
+                <p class="rain"id="rain3"></p>                
+             </div>
+        </div>
+   </div>
+  </body>
+</html>

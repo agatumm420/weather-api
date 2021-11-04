@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(218, 218, 236)
+  }
+.big-box{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height:500px;
+    width:100%;
+  
+    background-color: rgb(218, 218, 236);
+
+}
+.swicharoo{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.form{
+    align-items: flex-start;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+  
+    
+}
+#search-bar{
+    align-self: center;
+    background: transparent;
+    border: 0;
+    color: rgb(75, 73, 73);
+    border-bottom: 1px solid currentColor;
+    font-size: inherit;
+    outline: none;
+    padding: 0.25em;
+    transition: border-bottom 150ms ease-in;
+    order: 1;
+    
+
+}
+#search-icon{
+    position:relative;
+    height:15px;
+    width:auto;
+    cursor: pointer;
+    left:200px;
+    top:10px;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(75, 73, 73);
+}
+
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    height: 300px;
+    width:100%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+.clear{
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/06/22/55/sun-3588618__480.jpg);
+}
+.few-clouds{
+    background-image: url(https://images.unsplash.com/photo-1592210454359-9043f067919b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+    opacity:0.7;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgb(218, 218, 236) inset;
+}
+.cloudy{
+    background-image: url(https://image.freepik.com/free-photo/black-rain-abstract-dark-power_1127-2380.jpg);
+    opacity:0.7;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgb(218, 218, 236) inset;
+}
+.rain{
+    background-image: url(https://image.freepik.com/free-photo/raindrops-window-with-blue-sky_53876-142999.jpg);
+    opacity:0.7;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgb(218, 218, 236) inset;
+}
+.thunder{
+    background-image: url(https://images.unsplash.com/photo-1561485132-59468cd0b553?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+    opacity:0.7;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgb(218, 218, 236) inset;
+}
+.snow{
+    background-color: url(https://images.pexels.com/photos/773953/pexels-photo-773953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    opacity:0.7;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgb(218, 218, 236) inset;
+}
+.mist{
+    background-image: url(https://images.unsplash.com/photo-1585651686997-5516bd534e9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+    opacity:0.7;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px rgb(218, 218, 236) inset;
+}
+.box{
+    background:transparent;
+    display:table;
+}
+p{
+    background:transparent;
+    color: rgb(247, 238, 238);
+    font-family: 'Quicksand', sans-serif;
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;  
+    font-size: 35px; 
+    text-transform: bold;
+    
+}
+#icon{
+    background:transparent;
+    position:relative;
+    top:100px;
+    filter: grayscale(100%);
+
+}
+.week{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.icon{
+    background:transparent;
+    position:relative;
+    filter: grayscale(100%);
+    height: 70px;
+    width: 70px;
+    left:100px;
+}
+.spot{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color:rgb(75, 73, 73);
+}
+.day{
+    color:rgb(75, 73, 73);  
+}
